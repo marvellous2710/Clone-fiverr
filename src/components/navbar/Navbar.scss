@@ -24,10 +24,23 @@
         .logo{
             font-size: 34px;
             font-weight: bold;
-            .text{}
+            .text{
+                padding: 10px;
+            }
             .dot{
                 color: #1dbf73;
             }
+            
+          
+
+            img{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+
         }
         .links{
             display: flex;

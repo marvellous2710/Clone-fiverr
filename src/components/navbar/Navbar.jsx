@@ -34,7 +34,11 @@ const Navbar = () => {
             <div className="container">
                 <div className="logo">
                     <Link to="/" className="link">  
-                        <span className="text">fiverr</span>
+                        <img src="src/images/tete-de-chat-en-origami-autocollant.png" alt="" />
+                        <span className="text">catwalk</span>
+                        
+                   
+                        
                     </Link> 
                     
                     <span className="dot">.</span>
@@ -48,7 +52,7 @@ const Navbar = () => {
                     {!currentUser && <button>Join</button>}
                     {currentUser && (
                         <div className="user" onClick={()=>setOpen(!open)}>
-                            <img src="src/images/sonic.png" alt="" />
+                            <img src="src/images/tete-de-chat-en-origami-autocollant.png" alt="" />
                             <span>{currentUser?.username}</span>
                            {open && <div className="options">
                                 {currentUser?.isSeller && (
